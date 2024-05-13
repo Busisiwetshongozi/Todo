@@ -24,7 +24,7 @@ public class Todo {
     private String taskName;
 
     @NonNull
-    private String desc;
+    private String description;
 
     @CreatedDate //Annotation used to specify creation date for your Db and it is done so automatically by Spring Boot
     Timestamp dateCreated;
